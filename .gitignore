@@ -1,0 +1,3 @@
+# Ignore the png files and .txt fines
+*.txt
+.DS_Store
