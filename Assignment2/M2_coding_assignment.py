@@ -30,3 +30,4 @@ print("<Approach 2>\n")
 print(
     f" My Favorite song is {my_fav_song} and \n it was sung by one of my favorite's singer {my_fav_singer} \n and my most favorite line in that song is {fav_line_of_the_song}"
 )
+print("adding new line")
