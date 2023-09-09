@@ -1,12 +1,7 @@
-marks = int(input("what is your marks? "))
-print(
-    "Grade A"
-    if 90 <= marks <= 100
-    else "Grade B"
-    if 80 <= marks <= 89
-    else "Grade C"
-    if 70 <= marks <= 79
-    else "Fail"
-    if 0 <= marks <= 69
-    else "invalid input"
-)
+M4_assignment = [12, 21, 33, 14, 57, 6, 17, 10, 11, 28, 3, 32, 2, 4]
+
+for i in M4_assignment:
+    if i % 2 == 0:
+        print("even no", i)
+    else:
+        print("odd no", i)
