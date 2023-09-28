@@ -32,7 +32,7 @@ New_List = " and ".join(New_list)
 print("Lists converted to string is", New_List)
 print(New_List.lower())
 """
-
+"""
 for number in range(4, 16):
     print(number * number)
 
@@ -41,3 +41,12 @@ Square = []
 for number in range(4, 16):
     Square.append(number * number)
 print(Square)
+
+"""
+squares = []
+numbers = [1, 2, 3]
+for number in numbers:
+    square = number * number
+    squares.append[square]
+print(squares)
+print(numbers)
